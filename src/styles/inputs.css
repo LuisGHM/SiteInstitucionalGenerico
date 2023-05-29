@@ -1,0 +1,19 @@
+.input-default{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-4);
+    border: 1px solid var(--color-grey-2);
+    padding: 14px 20px;
+}
+
+.input-valid{
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-4);
+    border: 1px solid var(--color-grey-0);
+    padding: 14px 20px;
+}
+
+.input-default:focus{
+    background-color: var(--color-grey-1);
+    color: var(--color-brand-1);
+    border: 1px solid var(--color-brand-1);
+}

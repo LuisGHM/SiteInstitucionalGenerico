@@ -1,0 +1,79 @@
+dialog{
+    padding: 0;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.container__dialog{
+    width: 100%;
+    height: 100%;
+    color: var(--color-grey-5);
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--color-grey-1);
+}
+
+.cabe{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.cabe h1{
+    font-size: var(--font-size-5);
+}
+
+.cabe button{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-4);
+    justify-content: center;
+    align-items: center;
+}
+
+.container__dialog form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__dialog form input{
+    margin: 10px 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 80%;
+    color: var(--color-grey-4);
+}
+
+.content p{
+    margin: 20px 0;
+}
+
+.container__dialog form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    color: var(--color-grey-4);
+}
+
+.container__dialog form input{
+    width: 90%;
+    margin: 20px 0;
+}
+
+.container__dialog form button{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+

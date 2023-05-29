@@ -1,1 +1,158 @@
-/* ------------------------------- Coloque sua estilização aqui ------------------------------- */
+header{
+    color: var(--color-grey-5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 19px;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--color-brand-1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--color-grey-0);
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: var(--color-grey-5);
+}
+
+.container .title-1{
+    margin: 50px;
+}
+
+.container .title-1 span{
+    color: var(--color-brand-1);
+}
+
+.container .text-3{
+    max-width: 50%;
+    text-align: center;
+    word-break: break-all;
+    margin: 0 auto;
+    color: var(--color-grey-4);
+    margin-bottom: 20px;
+}
+
+.container .button-default{
+    padding: 15px;
+}
+
+.container-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    position: relative;
+}
+
+.container-info h2{
+    max-width: 60%;
+}
+
+.spanText{
+    max-width: 40%;
+    color: var(--color-grey-4);
+}
+
+.aside-tag{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    bottom: 500000000000000000000000000000000000000000000000px;
+}
+
+.normal-tag{
+    position: relative;
+
+}
+
+.div-container .title-2{
+    margin-bottom: 20px;
+}
+
+.div-container .text-3{
+    margin-bottom: 20px;
+}
+
+.div-container .button-default{
+    max-width: 40%;
+    padding: 20px;
+}
+
+.div-container .text-just .title-3{
+    color: var(--color-grey-5);
+    margin-bottom: 20px;
+}
+
+.div-container .text-just .text-2{
+    margin-bottom: 20px;
+    
+}
+
+.container-info .div-container{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container__avali{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--color-grey-1);
+}
+
+.container__avali div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container__avali div ul li div{
+    display: flex;
+    gap: 15px;
+}
+
+.container__avali div ul li div span{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.container__avali div ul li div p{
+    color: var(--color-grey-4);
+}
+
+.container__comentam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: var(--color-brand-1);
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    height: 200px;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 15px 75px;
+    background-color: var(--color-grey-0);
+}
+
