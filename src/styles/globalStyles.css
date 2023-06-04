@@ -41,3 +41,18 @@ body{
     font-family: var(--font-famiy-1);
     color: var(--color-grey-5);
 }
+
+.header__container{
+    color: var(--color-grey-5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 19px;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--color-brand-1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--color-grey-0);
+    z-index: 1;
+}
